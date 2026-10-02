@@ -1,0 +1,33 @@
+PODS:
+  - dartnative_ios (1.0.0):
+    - FlexLayout (= 2.0.10)
+  - dartnative_media_picker (1.1.0)
+  - DartNativeCore (1.0.0)
+  - FlexLayout (2.0.10)
+
+DEPENDENCIES:
+  - dartnative_ios (from `.symlinks/plugins/dartnative_ios/ios`)
+  - dartnative_media_picker (from `.symlinks/plugins/dartnative_media_picker/ios`)
+  - DartNativeCore (from `DartNative`)
+
+SPEC REPOS:
+  trunk:
+    - FlexLayout
+
+EXTERNAL SOURCES:
+  dartnative_ios:
+    :path: ".symlinks/plugins/dartnative_ios/ios"
+  dartnative_media_picker:
+    :path: ".symlinks/plugins/dartnative_media_picker/ios"
+  DartNativeCore:
+    :path: DartNative
+
+SPEC CHECKSUMS:
+  dartnative_ios: 88d434758a21de28291d1ca70f9a144bd28548c7
+  dartnative_media_picker: d385658a670ee438a8c4ee6357a12fb0255e9ea9
+  DartNativeCore: 225e49d9e35e234bcadc6b81586fc4275a1006ee
+  FlexLayout: ea94491c923485f7f28891cb5b10245d22df380b
+
+PODFILE CHECKSUM: 0eb83f38c0038ca753c95effc43e8a0e67ec8c2c
+
+COCOAPODS: 1.16.2
