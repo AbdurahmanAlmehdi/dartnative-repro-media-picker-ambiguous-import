@@ -1,5 +1,7 @@
 # Repro: `showMediaPicker`, `MediaFile` and `MediaPickerType` are ambiguous with `dartnative_media_picker`
 
+Issue: https://github.com/DartNative/dartnative/issues/64
+
 An app that uses `dartnative_media_picker` imports the plugin next to
 `package:dartnative/dartnative.dart`, as every DartNative app does. Both
 libraries export `showMediaPicker`, `MediaFile` and `MediaPickerType`, so the
